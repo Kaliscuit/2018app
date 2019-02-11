@@ -1,0 +1,32 @@
+dependencies: \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Profiler/RCTPerfMonitor.m \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Modules/RCTDevSettings.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Profiler/RCTFPSGraph.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Base/RCTJavaScriptExecutor.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Base/RCTPerformanceLogger.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Base/RCTRootView.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Modules/RCTUIManager.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Views/RCTViewManager.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/sunruinian/workspace/xc_app_rn/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/sunruinian/workspace/xc_app_rn/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/sunruinian/workspace/xc_app_rn/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Views/UIView+React.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Views/RCTComponent.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native/React/DevSupport/RCTDevMenu.h

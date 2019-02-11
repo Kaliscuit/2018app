@@ -1,0 +1,4 @@
+rootProject.name = 'xc_app_rn'
+include ':react-native-picker'
+project(':react-native-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-picker/android')
+include ':app', ':react-native-smart-barcode', ':react-native-video',':captchasdk-release-1.0.2'

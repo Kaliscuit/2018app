@@ -1,0 +1,115 @@
+//NTalkerChatViewController(主聊窗)
+"chatTitle" = "OnlineService";//聊窗标题
+"inputingTitle" = "In input...";//客服正在输入
+"netWorkStatus" = "Network unavailable,Check network";//无网提示
+"recordBtnTitleNomal" = "Hold to talk";//录音按钮标题 默认状态下
+"recordBtnTitleHlight" = "Release to send";//录音按钮标题 高亮状态下
+"sure" = "Determine";
+"deviceUnused" = "Equipment is not available";
+"tipTitle" = "Prompt";//提示标题
+"openCameraAuthority" = " Please allow  APP to access your device's camera  in  Settings -> Privacy -> Camera";
+//相机权限提示
+"openPhotoAuthority" = "Please allow  APP to access your device's camera  in  Settings -> Privacy -> Photo";//相册权限提示
+"cantRecord" = "Cannot record";//无法录音提示
+"openMicrophoneAuthority" = "Allow APP to access your microphone from device menu:Settings->Privacy->Microphone";
+//小视频相关
+"noPermissions" = "no Permissions";
+"openPermissions" = "Open the camera and microphone permissions in Settings > Privacy";
+"ok" = "ok";
+"pressToRecord" = "press to Record";
+"cancel" = "cancel";
+
+"muchMoreTextTip" = "Send the content is too long";
+"noTextTip" = "Send message can not be empty";
+"imageTooLargeTip" = "image is too larage";
+//客服非在线提醒
+"lostNetTip" = "your network is weak,please check and back come in";
+"customerServiceLeaved" = "Customer service is not online, please leave a message";
+"onlineUpFront" = "Customer service is busy, you are ranked in";
+"onlineUpBehind" = "Please wait or leave a message";
+"KFLeavedNoLeaveMessage" = "Customer service is not online";
+"KFBusyNoLeaveMsgFront" = "Customer service is busy, you are ranked in";
+"KFBusyNoLeaveMsgBehind" = "Please wait";
+//强输时提醒
+"customerServiceLeavedTip" = "Customer service is not online, please leave a message!";
+"customerServiceBusyTip" = "Customer service busy, please wait!";
+"requestingTip" = "Requesting customer service...";
+"netWorkStatusTip" = "Please check your network settings";
+//访客排队中，提醒
+"isGiveUp" = "Will you  give up the queue?";
+"yes" = "YES";
+"no" = "NO";
+//转人工
+"TurnManual" = "Turn into Manual";
+"TurnManualing" = "Connecting,please wait a little later...";
+//功能键盘
+"pictureLabel" = "Photos";
+"cameraLabel" = "Camera";
+"evalueLabel" = "Evaluate";
+"videoLabel" = "Video";
+"orderLabel" = "Order";
+"haveEvaluedLabel" = "Evaluated";
+//表情
+"send" = "send";
+"historyTip" = "Above is the historical news";
+"clickLeveMsg" = "message";
+//录音图片上提示
+"talkerTooShort" = "Message too short";
+"recordEnding" = "Release to cancel";
+"talkerEndToVolume" = "Slide up to cancel";
+
+//NTalkerLeaveMsgViewController(留言)
+"leaveMessageTitle" = "Message";
+//placeHold
+"leaveMsg" = "Message...";
+"leaveMsgName" = "Full name";
+"leaveMsgPhoneNum" = "Phone number";
+"leaveMsgEmail" = "Mailbox";
+"submit" = "Submit";
+"Required" = "Required";
+"Notice" = "Notice";
+//机器人
+"systypeClickText" = "Message";//点击留言
+//提示语
+"limitMsgTipText" = "Message content can not be more than 400 characters";
+"limitNameTipText" = "Name content is too long";
+"submitLeaveFail" = "Message submission failed";
+"submitLeaveSuccess" = "Message submitted successfully";
+"unsubmitByNet" = "No network, the message can not be submitted for the time being";
+"noleaveMsgTip" = "Please fill in the message, thank you!";
+"noLeaveNameTip" = "Please fill in your name, thank you!";
+"noContactInfoTip" = "Please fill in the phone number or email address!";
+"phoneNumErrorTip" = "Please fill in the correct phone number, thank you!";
+"EmailErrorTip" = "Please fill in the correct mailbox, thank you!";
+"phoneOrEmailErrorTip" = "Please fill in valid email or phone number";
+
+//评价
+"evalue0" = "Very satisfied";
+"evalue1" = "Satisfied";
+"evalue2" = "Commonly";
+"evalue3" = "Dissatisfied";
+"evalue4" = "Very not satisfied";
+"evalueTitle" = "Thank you , please make an assessment.";
+"solveStatus" = "Problem solving status";
+"solve0" = "Solved";
+"solve1" = "Solveing";
+"solve2" = "Unsolved";
+"evalueAdvise" = "Suggestions and feedback";
+"cancelTitle" = "Cancel";
+"advisePlaceHold" = "The idea of the moment";
+"limitEvalueTip" = "Evaluation content can not be more than 200 characters";
+"noNetWorkSubmitEvalueTip" = " No network, the evaluation can not be submitted for the time being";
+"submitEvalueResult" = "Evaluation submitted to success!";
+
+//cell
+"copyLink" = "Copy link";
+//本地未读消息
+"imageMsg" = "image message";
+"voiceMsg" = "voice message";
+"videoMsg" = "video message";
+"fuMadiaMsg" = "fumadia message";
+//保存照片到相册
+"successSaveToLibrary" = "Save to photoLabaray success";
+"savePictureFailed" = "Save to photos Labaray failed,please check the photos Labaray setting";
+
+

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>日志</title>
+    <link rel="stylesheet" href="/json2.css">
+    <style>
+        html,
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        #list {
+            font-size: 12px;
+        }
+
+        #list .item {
+            padding: 5px 5px;
+            border-bottom: solid 1px #ccc;
+        }
+
+        #list .lab-time {
+            background: #00aa00;
+            color: #fff;
+        }
+        #list .lab-time.err{
+            background: #bb0000;
+        }
+
+        #info {
+            display: none;
+            position: fixed;
+            top: 0;
+            right: 0;
+            height: 100%;
+            /* width: 500px; */
+            background: #fff;
+            border-left: solid 1px #ccc;
+            overflow: scroll;
+            max-width: 100%;
+        }
+
+        #info .box {
+            display: none;
+        }
+
+        #info .item {
+            padding: 10px;
+            border: solid 1px #ccc;
+            font-size: 12px;
+            word-break: break-all;
+        }
+
+        #info .lab {
+            font-weight: 700;
+            margin-right: 10px;
+        }
+
+        #container {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            height: 380px;
+            width: 100%;
+            background: #fff;
+            border-top: solid 1px #ccc;
+            overflow-y: scroll;
+        }
+
+        #data {
+            display: none;
+        }
+
+        #foot {
+            display: none;
+            height: 400px;
+        }
+
+        #foot .close {
+            position: fixed;
+            left: 0;
+            bottom: 380px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="list"></div>
+    <div id="data"></div>
+    <div id="foot">
+        <button class="close">关闭</button>
+        <div id="container"></div>
+    </div>
+    <div id="info">
+        <button class="close">关闭</button>
+    </div>
+    <script id="tmp-list" type="text/html">
+        <div class="item" data-tid="{{id}}">
+            <span class="lab-time {{type}}">{{times | formart}}</span>
+            {{title}}
+            <button class="btn1">header</button>
+            <button class="btn2">数据</button>
+        </div>
+    </script>
+    <script id="tmp-info" type="text/html">
+        <div class="box" id="info_{{id}}">
+            {{each headers}}
+            <div class="item" id="{{id}}">
+                <span class="lab">{{$index}}:</span>{{$value}}
+            </div>
+            {{/each}}
+        </div>
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+    <script src="/art.js"></script>
+    <script src="/json2html.js"></script>
+    <script>
+        var container;
+        template.defaults.imports.formart = function (data) {
+            if (!data) return "";
+            var str = "yyyy-MM-dd hh:mm:ss";
+            let time = new Date(data);
+            str = str.replace("yyyy", time.getFullYear());
+            str = str.replace("MM", (time.getMonth() + 1));
+            str = str.replace("dd", time.getDate());
+            str = str.replace("hh", time.getHours());
+            str = str.replace("mm", time.getMinutes());
+            str = str.replace("ss", time.getSeconds());
+            return str;
+        }
+
+        function insert(res) {
+            var id = new Date().getTime();
+            var html = template.render($("#tmp-list").html(), {
+                id: id,
+                title: res.data.title,
+                times: res.times,
+                type:res.type
+            });
+            $("#list").append(html);
+            var info = template.render($("#tmp-info").html(), {
+                id: id,
+                headers: res.headers,
+                data: res.data.data
+            });
+            $("#info").append(info);
+
+            $("#data").append("<div id='data_" + id + "'>" + (JSON.stringify(res.data.data)) + "</div>");
+            $(window).scrollTop($("#list").height());
+        }
+
+        var socket = io({
+            reconnection:false
+        });
+        socket.on("info", function (res) {
+            try {
+                res.data.data = JSON.parse(res.data.data);
+            } catch (error) {
+                //
+            }
+            insert(res);
+            console.log(res);
+        });
+        socket.on("error", function (data) {
+            try {
+                res.data.data = JSON.parse(res.data.data);
+            } catch (error) {
+                //
+            }
+            insert(res);
+            console.log(res);
+        });
+        // socket.emit("info", "test");
+        $(function () {
+            var options = {
+                dom: '#container' //对应容器的css选择器
+            };
+            container = new JsonFormater(options); //创建对象
+            // $("#list").on("click", ".item", function () {
+            //     console.log($(this).data("tid"));
+            // });
+            $("#list").on("click", ".btn1", function () {
+                let id = $(this).parent().data("tid");
+                $("#info").show();
+                $("#info_" + id).show();
+            });
+            $("#list").on("click", ".btn2", function () {
+                let id = $(this).parent().data("tid");
+                let json = $("#data_" + id).text();
+                $("#foot").show();
+                container.doFormat(json);
+                container.collapseLevel(4);
+            });
+            $("#info .close").click(function () {
+                $("#info").hide();
+                $("#info .box").hide();
+            });
+            $("#foot .close").click(function () {
+                $("#foot").hide();
+            });
+        });
+    </script>
+</body>
+
+</html>

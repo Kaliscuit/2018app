@@ -1,0 +1,203 @@
+{
+    "bannerList": [{
+        "bannerId": 1012,
+        "fullScreenYn": null,
+        "bannerHeight": 1068,
+        "goodId": null,
+        "prodId": null,
+        "title": "1",
+        "contextType": "3",
+        "context": "3",
+        "bannerWidth": 680,
+        "startTime": "2018-10-20 00:00:00",
+        "endTime": "2018-12-29 00:00:00",
+        "sku": null,
+        "showImg": "http://imgbeta.daling.com/zin/2018/09/27/11/53/FA163E0DEC48I9RB43SLI6JCA2Y.png"
+    }],
+    "quickListFullScreenImg": null,
+    "quickList": [{
+        "contextType": "sku",
+        "context": "100058179D421,040219236A421,030159194A191,030221195D725",
+        "startTime": "2018-01-12 00:00:00",
+        "niceGoodsQuickEntranceDtoList": [{
+                "oneWordSellPoint": "时尚小巧复古范",
+                "original_img": "http://imgbeta.daling.com/data/files/mobile/2014/12/15/14186159156362.JPG",
+                "salePrice": 300,
+                "sku": "030221195D725",
+                "goodsId": 107644,
+                "goodsName": "风格迥异复古风录音机 项链(铜色)"
+            },
+            {
+                "oneWordSellPoint": "时尚小巧复古范",
+                "original_img": "http://imgbeta.daling.com/data/files/mobile/2014/12/15/14186159156362.JPG",
+                "salePrice": 300,
+                "sku": "030221195D725",
+                "goodsId": 107644,
+                "goodsName": "风格迥异复古风录音机 项链(铜色)"
+            },
+            {
+                "oneWordSellPoint": "时尚小巧复古范",
+                "original_img": "http://imgbeta.daling.com/data/files/mobile/2014/12/15/14186159156362.JPG",
+                "salePrice": 300,
+                "sku": "030221195D725",
+                "goodsId": 107644,
+                "goodsName": "风格迥异复古风录音机 项链(铜色)"
+            },
+            {
+                "oneWordSellPoint": "时尚小巧复古范",
+                "original_img": "http://imgbeta.daling.com/data/files/mobile/2014/12/15/14186159156362.JPG",
+                "salePrice": 300,
+                "sku": "030221195D725",
+                "goodsId": 107644,
+                "goodsName": "风格迥异复古风录音机 项链(铜色)"
+            }
+        ],
+        "endTime": "2019-07-26 00:00:00",
+        "goodId": null,
+        "prodId": null,
+        "quickEntranceId": 1000,
+        "title": "SKU",
+        "titleColor": "FF160B",
+        "sku": "100058179D421,040219236A421,030159194A191,030221195D725",
+        "showImg": "http://imgbeta.daling.com/zin/2018/09/25/17/55/FA163E0DEC48I9PH4ACFS3CM015.png",
+        "categoryId": 1011
+    }, {
+        "contextType": "sku",
+        "context": "100058179D421,040219236A421,030159194A191,030221195D725",
+        "startTime": "2018-01-12 00:00:00",
+        "niceGoodsQuickEntranceDtoList": [{
+                "oneWordSellPoint": "时尚小巧复古范",
+                "original_img": "http://imgbeta.daling.com/data/files/mobile/2014/12/15/14186159156362.JPG",
+                "salePrice": 300,
+                "sku": "030221195D725",
+                "goodsId": 107644,
+                "goodsName": "风格迥异复古风录音机 项链(铜色)"
+            },
+            {
+                "oneWordSellPoint": "时尚小巧复古范",
+                "original_img": "http://imgbeta.daling.com/data/files/mobile/2014/12/15/14186159156362.JPG",
+                "salePrice": 300,
+                "sku": "030221195D725",
+                "goodsId": 107644,
+                "goodsName": "风格迥异复古风录音机 项链(铜色)"
+            },
+            {
+                "oneWordSellPoint": "时尚小巧复古范",
+                "original_img": "http://imgbeta.daling.com/data/files/mobile/2014/12/15/14186159156362.JPG",
+                "salePrice": 300,
+                "sku": "030221195D725",
+                "goodsId": 107644,
+                "goodsName": "风格迥异复古风录音机 项链(铜色)"
+            },
+            {
+                "oneWordSellPoint": "时尚小巧复古范",
+                "original_img": "http://imgbeta.daling.com/data/files/mobile/2014/12/15/14186159156362.JPG",
+                "salePrice": 300,
+                "sku": "030221195D725",
+                "goodsId": 107644,
+                "goodsName": "风格迥异复古风录音机 项链(铜色)"
+            }
+        ],
+        "endTime": "2019-07-26 00:00:00",
+        "goodId": null,
+        "prodId": null,
+        "quickEntranceId": 1000,
+        "title": "SKU",
+        "titleColor": "FF160B",
+        "sku": "100058179D421,040219236A421,030159194A191,030221195D725",
+        "showImg": "http://imgbeta.daling.com/zin/2018/09/25/17/55/FA163E0DEC48I9PH4ACFS3CM015.png",
+        "categoryId": 1011
+    },{
+        "contextType": "sku",
+        "context": "100058179D421,040219236A421,030159194A191,030221195D725",
+        "startTime": "2018-01-12 00:00:00",
+        "niceGoodsQuickEntranceDtoList": [{
+                "oneWordSellPoint": "时尚小巧复古范",
+                "original_img": "http://imgbeta.daling.com/data/files/mobile/2014/12/15/14186159156362.JPG",
+                "salePrice": 300,
+                "sku": "030221195D725",
+                "goodsId": 107644,
+                "goodsName": "风格迥异复古风录音机 项链(铜色)"
+            },
+            {
+                "oneWordSellPoint": "时尚小巧复古范",
+                "original_img": "http://imgbeta.daling.com/data/files/mobile/2014/12/15/14186159156362.JPG",
+                "salePrice": 300,
+                "sku": "030221195D725",
+                "goodsId": 107644,
+                "goodsName": "风格迥异复古风录音机 项链(铜色)"
+            },
+            {
+                "oneWordSellPoint": "时尚小巧复古范",
+                "original_img": "http://imgbeta.daling.com/data/files/mobile/2014/12/15/14186159156362.JPG",
+                "salePrice": 300,
+                "sku": "030221195D725",
+                "goodsId": 107644,
+                "goodsName": "风格迥异复古风录音机 项链(铜色)"
+            },
+            {
+                "oneWordSellPoint": "时尚小巧复古范",
+                "original_img": "http://imgbeta.daling.com/data/files/mobile/2014/12/15/14186159156362.JPG",
+                "salePrice": 300,
+                "sku": "030221195D725",
+                "goodsId": 107644,
+                "goodsName": "风格迥异复古风录音机 项链(铜色)"
+            }
+        ],
+        "endTime": "2019-07-26 00:00:00",
+        "goodId": null,
+        "prodId": null,
+        "quickEntranceId": 1000,
+        "title": "SKU",
+        "titleColor": "FF160B",
+        "sku": "100058179D421,040219236A421,030159194A191,030221195D725",
+        "showImg": "http://imgbeta.daling.com/zin/2018/09/25/17/55/FA163E0DEC48I9PH4ACFS3CM015.png",
+        "categoryId": 1011
+    }, {
+        "contextType": "sku",
+        "context": "100058179D421,040219236A421,030159194A191,030221195D725",
+        "startTime": "2018-01-12 00:00:00",
+        "niceGoodsQuickEntranceDtoList": [{
+                "oneWordSellPoint": "时尚小巧复古范",
+                "original_img": "http://imgbeta.daling.com/data/files/mobile/2014/12/15/14186159156362.JPG",
+                "salePrice": 300,
+                "sku": "030221195D725",
+                "goodsId": 107644,
+                "goodsName": "风格迥异复古风录音机 项链(铜色)"
+            },
+            {
+                "oneWordSellPoint": "时尚小巧复古范",
+                "original_img": "http://imgbeta.daling.com/data/files/mobile/2014/12/15/14186159156362.JPG",
+                "salePrice": 300,
+                "sku": "030221195D725",
+                "goodsId": 107644,
+                "goodsName": "风格迥异复古风录音机 项链(铜色)"
+            },
+            {
+                "oneWordSellPoint": "时尚小巧复古范",
+                "original_img": "http://imgbeta.daling.com/data/files/mobile/2014/12/15/14186159156362.JPG",
+                "salePrice": 300,
+                "sku": "030221195D725",
+                "goodsId": 107644,
+                "goodsName": "风格迥异复古风录音机 项链(铜色)"
+            },
+            {
+                "oneWordSellPoint": "时尚小巧复古范",
+                "original_img": "http://imgbeta.daling.com/data/files/mobile/2014/12/15/14186159156362.JPG",
+                "salePrice": 300,
+                "sku": "030221195D725",
+                "goodsId": 107644,
+                "goodsName": "风格迥异复古风录音机 项链(铜色)"
+            }
+        ],
+        "endTime": "2019-07-26 00:00:00",
+        "goodId": null,
+        "prodId": null,
+        "quickEntranceId": 1000,
+        "title": "SKU",
+        "titleColor": "FF160B",
+        "sku": "100058179D421,040219236A421,030159194A191,030221195D725",
+        "showImg": "http://imgbeta.daling.com/zin/2018/09/25/17/55/FA163E0DEC48I9PH4ACFS3CM015.png",
+        "categoryId": 1011
+    }]
+}

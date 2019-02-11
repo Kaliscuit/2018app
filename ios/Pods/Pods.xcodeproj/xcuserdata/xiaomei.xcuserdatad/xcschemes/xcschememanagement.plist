@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-xc_app_rn.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>50</integer>
+		</dict>
+		<key>QBImagePickerController-QBImagePicker.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>52</integer>
+		</dict>
+		<key>QBImagePickerController.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>51</integer>
+		</dict>
+		<key>RSKImageCropper.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>53</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2B702618CB2484E73A40D7A64C63740E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3A726382AC03E077127FB54A866632B2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BCC2360AB6034A9701A5D52FA6CD6D5E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC8C56C6BB18CBF5143D397A14184E56</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

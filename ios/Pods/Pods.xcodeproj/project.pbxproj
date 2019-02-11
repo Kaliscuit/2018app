@@ -1,0 +1,925 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0350464E51819A72494908F5D4723382 /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B5B85469CE739856356D11F9660F087C /* es.lproj */; };
+		03D7BAE3E80982D33D168E7784619B95 /* RSKInternalUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FFFAA2568A44F9D3097B072DF26A3D /* RSKInternalUtility.m */; };
+		0AC3080B7C843B63610A10F1CA7A5342 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 57491EE1A43D757DB780A545799E46F2 /* ja.lproj */; };
+		0D966CFBFC82E4F88C9CB7DA44D95C34 /* RSKImageCropViewController+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D40FB26CFC6B3834B12038003545C3B /* RSKImageCropViewController+Protected.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AFFB2EC853B1404A5EEA86F6C83D278 /* QBAlbumsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C979E795E45F61938DA618C8C227E4 /* QBAlbumsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B267DB1E4537784F085C1527D8E6A60 /* RSKTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 146BE6E85422BEC384246B98538CA54E /* RSKTouchView.m */; };
+		2C18641EA16DCA3A7B1F13A118D99055 /* QBAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF7C5842D7899C12602EC76609C6AA1 /* QBAlbumsViewController.m */; };
+		2D00718F587706D3EA882ADA0D84FF37 /* QBAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E620ED95A626CD46CC275084287BE9D1 /* QBAssetCell.m */; };
+		2D22FC7848AA605B1788DE3DA72F03C6 /* CGGeometry+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7F586B8A89452AC8E34499C31DA651 /* CGGeometry+RSKImageCropper.m */; };
+		2F84FE4D5740DA50580742190510A091 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4E6849811E3ECA7727EF2DB75F2104 /* QuartzCore.framework */; };
+		349811B643E1B9EB3A3DD353F521000A /* RSKImageCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D8EE5E8E2D7954D616DBE224C1AFCA8 /* RSKImageCropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		372C6B5A451F62CF20A95D2750013958 /* RSKImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38247C857F43104BD924F610F0E9711F /* RSKImageScrollView.m */; };
+		3CFCF08DAFBB287E08B19796CA98EF60 /* QBAssetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A7ED0E18C5E9E732E19F6DB1E668B037 /* QBAssetCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		429B89FF96E287EA8DF3A9BE2F304A64 /* QBImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0A7D148BD79B2C0F2AEC2EE1247A8B /* QBImagePickerController.m */; };
+		4359CA356C8325F4E09096265F76988B /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 020771216C77ADA288F0CD7DA165F84E /* zh-Hans.lproj */; };
+		52AE6014599C4B7C98EE9F0F2C5DCEC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E4720C5D8DF212354044601A7053B44 /* Foundation.framework */; };
+		52E4654265A86533EE7827E672FC9931 /* QBAssetsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D68D39E0FE6D8A4584A043D78A9C9ABC /* QBAssetsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55A762813DAFC2C4A36E25D9052B5D03 /* QBVideoIconView.h in Headers */ = {isa = PBXBuildFile; fileRef = 750060EAB0D46FCAD359BC6C53D6BB3F /* QBVideoIconView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AF5E8328DBB0D912ACDA85F8F6B671D /* QBCheckmarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7A871281648E0B111362D38A783CCE /* QBCheckmarkView.m */; };
+		5EC4168C9B9666C9FD1BA38B29818655 /* QBCheckmarkView.h in Headers */ = {isa = PBXBuildFile; fileRef = 264538DC8380C3B4E677C182E6252EC6 /* QBCheckmarkView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		616FCCAA6C1FF5C061E15FB1E25A9D60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E4720C5D8DF212354044601A7053B44 /* Foundation.framework */; };
+		66A83C54B684154CAA2DE78EF3C3C8B6 /* RSKImageCropper.h in Headers */ = {isa = PBXBuildFile; fileRef = 111A9FD24E2499EBC96D3EA6845DFB1C /* RSKImageCropper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6750EF5865E365F37473D86C878938D7 /* RSKImageCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC36ADFEE5EFDFF2295BA53C567D9BC /* RSKImageCropViewController.m */; };
+		6EE1C695E97661EB2DC62D33D2EA89C3 /* UIImage+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 264CD27998361E9EB362A0F6EDA3CB0B /* UIImage+RSKImageCropper.m */; };
+		75A62FF11FE669147A9624F5B91C6C51 /* UIApplication+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E05FB8DC03953A45AFBF210610F813 /* UIApplication+RSKImageCropper.m */; };
+		7B163BF1720101AC8ADE8F162136CFCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782D113F6911206FC11F0532805F7681 /* UIKit.framework */; };
+		7EAEA14C0F016146E45F657890847598 /* UIImage+RSKImageCropper.h in Headers */ = {isa = PBXBuildFile; fileRef = B46B5BCF99046F267446CF790F0A2BAD /* UIImage+RSKImageCropper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EE99A29CEC9E2D7619D228BDDA97B1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E4720C5D8DF212354044601A7053B44 /* Foundation.framework */; };
+		818616DD16831849C05A2687DC29747D /* QBImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = E7A5BF8CEA615345C5797975AA36C48C /* QBImagePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82579A981ABDFA87096DF569E3B5EE55 /* CGGeometry+RSKImageCropper.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBFE16C6E5F5EF041D988F5BC9E1703 /* CGGeometry+RSKImageCropper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8389E43A69ECED799C723D1AA613C709 /* QBAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4DEA89FAC6843E36173A51D58547C6 /* QBAssetsViewController.m */; };
+		862E334630610A5D158BEEF14EF2CDB1 /* RSKInternalUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = B5B99E26FFDBE1D68316A9172A6BF38C /* RSKInternalUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90141EAE580632364F2FE68F58DA6814 /* QBImagePicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1206692AC1BEE5AFBB02281FEF8E960C /* QBImagePicker.storyboard */; };
+		923937055CC44D13194844208D026E70 /* RSKImageScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BED797054FD013B18665ED3955913AC /* RSKImageScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97F4AC96B872414C1DB3228BACF519F6 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 65F5FC7E113B2B046A9023BDECBADC87 /* en.lproj */; };
+		9A4146B2FDE7D033EC5AD80411DE7172 /* QBSlomoIconView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AF12D9FA0ADE4BC58DC41B83B85276B /* QBSlomoIconView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE10992F09D83FEC417289D32DB871C7 /* QBVideoIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F38181090C427EFCAECB0BD523AFF14 /* QBVideoIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B495B50A38F549D892A77877355B3CE3 /* QBImagePickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6FA7B9610A20C4CA32AC4709A01FDD /* QBImagePickerController-dummy.m */; };
+		BB77E6C643F471A4D3E985A3E149462A /* Pods-xc_app_rn-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CB14387C7342405D114BCAD216EC3F /* Pods-xc_app_rn-dummy.m */; };
+		C23B836A2DA9731C58E343121E95128A /* UIApplication+RSKImageCropper.h in Headers */ = {isa = PBXBuildFile; fileRef = BE63115DB4C041834CA3883BFBC06047 /* UIApplication+RSKImageCropper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D107D7B5C31100DB96675085B68F9511 /* QBSlomoIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE5EF1D2CFC03596409F8E46C550FC2 /* QBSlomoIconView.m */; };
+		D61028252799EE86E92DE3FC7E16E39A /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CCD54A2521CCDA4FB386F8FA53A080A5 /* de.lproj */; };
+		D80A9B30513F1D97D121145933AFCC78 /* QBAlbumCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B85A525AA40F49D8B9F0E6462DA7971F /* QBAlbumCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD22A88BF312C5AB8A7929CFFE307DDB /* QBVideoIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 389128D116DCA0D35A8F868C3430BEC5 /* QBVideoIndicatorView.m */; };
+		EB6251E178B3B550C9472D2B09728170 /* RSKImageCropper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEF2CD41246C6187A42CE689D2E5865 /* RSKImageCropper-dummy.m */; };
+		EC840CA4FAA8326BB5B2251E68B61237 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93C68A99DEA2D18690FE82A28F2D95A /* Photos.framework */; };
+		F51DF85E3394B6B49BA6D9C1D456955B /* QBVideoIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E47EE4A845E5FDB851EB77A2D554F /* QBVideoIconView.m */; };
+		FA9D33C317DD29E52EDCE8A6F0D3EF21 /* QBAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2510D26C8AC12C0644D042A2DCC6B21 /* QBAlbumCell.m */; };
+		FB5E05C13F38B640825FC5FEDF71DA80 /* RSKTouchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 388B61DDAFCAFC77ABDA3DC1C4EA87C2 /* RSKTouchView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		881F9A7D4DDEB8D6D8EBF6AD8FCD6B52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A726382AC03E077127FB54A866632B2;
+			remoteInfo = RSKImageCropper;
+		};
+		8D675E92E35602C74B8C6F38DCCB8724 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCC2360AB6034A9701A5D52FA6CD6D5E;
+			remoteInfo = "QBImagePickerController-QBImagePicker";
+		};
+		A7891B0D135CF15A25572EC49A20267E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B702618CB2484E73A40D7A64C63740E;
+			remoteInfo = QBImagePickerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020771216C77ADA288F0CD7DA165F84E /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "QBImagePicker/zh-Hans.lproj"; sourceTree = "<group>"; };
+		0A9E7A1DABEA1F238DAF018F3A6A4AFA /* Pods-xc_app_rn-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-xc_app_rn-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0F4E6849811E3ECA7727EF2DB75F2104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		111A9FD24E2499EBC96D3EA6845DFB1C /* RSKImageCropper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSKImageCropper.h; path = RSKImageCropper/RSKImageCropper.h; sourceTree = "<group>"; };
+		1206692AC1BEE5AFBB02281FEF8E960C /* QBImagePicker.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = QBImagePicker.storyboard; path = QBImagePicker/QBImagePicker.storyboard; sourceTree = "<group>"; };
+		139595B118BC7E6A5878FE7F79152E98 /* QBImagePickerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QBImagePickerController.xcconfig; sourceTree = "<group>"; };
+		146BE6E85422BEC384246B98538CA54E /* RSKTouchView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSKTouchView.m; path = RSKImageCropper/RSKTouchView.m; sourceTree = "<group>"; };
+		1BD77EBD768BE209960F6149C9F16537 /* Pods-xc_app_rn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xc_app_rn.release.xcconfig"; sourceTree = "<group>"; };
+		1CF7C5842D7899C12602EC76609C6AA1 /* QBAlbumsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBAlbumsViewController.m; path = QBImagePicker/QBAlbumsViewController.m; sourceTree = "<group>"; };
+		1E4720C5D8DF212354044601A7053B44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		264538DC8380C3B4E677C182E6252EC6 /* QBCheckmarkView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBCheckmarkView.h; path = QBImagePicker/QBCheckmarkView.h; sourceTree = "<group>"; };
+		264CD27998361E9EB362A0F6EDA3CB0B /* UIImage+RSKImageCropper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RSKImageCropper.m"; path = "RSKImageCropper/UIImage+RSKImageCropper.m"; sourceTree = "<group>"; };
+		356BF1101224CD78D0E7832793E72F85 /* QBImagePickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QBImagePickerController-prefix.pch"; sourceTree = "<group>"; };
+		35E05FB8DC03953A45AFBF210610F813 /* UIApplication+RSKImageCropper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+RSKImageCropper.m"; path = "RSKImageCropper/UIApplication+RSKImageCropper.m"; sourceTree = "<group>"; };
+		38247C857F43104BD924F610F0E9711F /* RSKImageScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSKImageScrollView.m; path = RSKImageCropper/RSKImageScrollView.m; sourceTree = "<group>"; };
+		388B61DDAFCAFC77ABDA3DC1C4EA87C2 /* RSKTouchView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSKTouchView.h; path = RSKImageCropper/RSKTouchView.h; sourceTree = "<group>"; };
+		389128D116DCA0D35A8F868C3430BEC5 /* QBVideoIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBVideoIndicatorView.m; path = QBImagePicker/QBVideoIndicatorView.m; sourceTree = "<group>"; };
+		3900EAF156DE2F106F4E2BF26A55C333 /* QBImagePicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = QBImagePicker.bundle; path = QBImagePicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC0BA619E35496BB5BE2F7279D08F55 /* Pods-xc_app_rn-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xc_app_rn-acknowledgements.plist"; sourceTree = "<group>"; };
+		4BED797054FD013B18665ED3955913AC /* RSKImageScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSKImageScrollView.h; path = RSKImageCropper/RSKImageScrollView.h; sourceTree = "<group>"; };
+		4C5C14DD8A3E247C9DFE978D23CD79F6 /* RSKImageCropperStrings.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = RSKImageCropperStrings.bundle; path = RSKImageCropper/RSKImageCropperStrings.bundle; sourceTree = "<group>"; };
+		4CEF2CD41246C6187A42CE689D2E5865 /* RSKImageCropper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSKImageCropper-dummy.m"; sourceTree = "<group>"; };
+		4DE5EF1D2CFC03596409F8E46C550FC2 /* QBSlomoIconView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBSlomoIconView.m; path = QBImagePicker/QBSlomoIconView.m; sourceTree = "<group>"; };
+		57491EE1A43D757DB780A545799E46F2 /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.lproj; path = QBImagePicker/ja.lproj; sourceTree = "<group>"; };
+		65F5FC7E113B2B046A9023BDECBADC87 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = QBImagePicker/en.lproj; sourceTree = "<group>"; };
+		69C979E795E45F61938DA618C8C227E4 /* QBAlbumsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBAlbumsViewController.h; path = QBImagePicker/QBAlbumsViewController.h; sourceTree = "<group>"; };
+		6AF12D9FA0ADE4BC58DC41B83B85276B /* QBSlomoIconView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBSlomoIconView.h; path = QBImagePicker/QBSlomoIconView.h; sourceTree = "<group>"; };
+		6D40FB26CFC6B3834B12038003545C3B /* RSKImageCropViewController+Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RSKImageCropViewController+Protected.h"; path = "RSKImageCropper/RSKImageCropViewController+Protected.h"; sourceTree = "<group>"; };
+		750060EAB0D46FCAD359BC6C53D6BB3F /* QBVideoIconView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBVideoIconView.h; path = QBImagePicker/QBVideoIconView.h; sourceTree = "<group>"; };
+		782D113F6911206FC11F0532805F7681 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8D8EE5E8E2D7954D616DBE224C1AFCA8 /* RSKImageCropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSKImageCropViewController.h; path = RSKImageCropper/RSKImageCropViewController.h; sourceTree = "<group>"; };
+		8E4DEA89FAC6843E36173A51D58547C6 /* QBAssetsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBAssetsViewController.m; path = QBImagePicker/QBAssetsViewController.m; sourceTree = "<group>"; };
+		8F38181090C427EFCAECB0BD523AFF14 /* QBVideoIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBVideoIndicatorView.h; path = QBImagePicker/QBVideoIndicatorView.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		963E47EE4A845E5FDB851EB77A2D554F /* QBVideoIconView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBVideoIconView.m; path = QBImagePicker/QBVideoIconView.m; sourceTree = "<group>"; };
+		9AECD76A8A6878DAB436857AD3C98687 /* libQBImagePickerController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libQBImagePickerController.a; path = libQBImagePickerController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7B40768DAAEF3914375EA71A5BD36C7 /* RSKImageCropper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSKImageCropper-prefix.pch"; sourceTree = "<group>"; };
+		A7ED0E18C5E9E732E19F6DB1E668B037 /* QBAssetCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBAssetCell.h; path = QBImagePicker/QBAssetCell.h; sourceTree = "<group>"; };
+		AEFF84D4DD4D33D52497F68E4E608C8C /* Pods-xc_app_rn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xc_app_rn.debug.xcconfig"; sourceTree = "<group>"; };
+		AF6FA7B9610A20C4CA32AC4709A01FDD /* QBImagePickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QBImagePickerController-dummy.m"; sourceTree = "<group>"; };
+		B2510D26C8AC12C0644D042A2DCC6B21 /* QBAlbumCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBAlbumCell.m; path = QBImagePicker/QBAlbumCell.m; sourceTree = "<group>"; };
+		B46B5BCF99046F267446CF790F0A2BAD /* UIImage+RSKImageCropper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RSKImageCropper.h"; path = "RSKImageCropper/UIImage+RSKImageCropper.h"; sourceTree = "<group>"; };
+		B5B85469CE739856356D11F9660F087C /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es.lproj; path = QBImagePicker/es.lproj; sourceTree = "<group>"; };
+		B5B99E26FFDBE1D68316A9172A6BF38C /* RSKInternalUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSKInternalUtility.h; path = RSKImageCropper/RSKInternalUtility.h; sourceTree = "<group>"; };
+		B85A525AA40F49D8B9F0E6462DA7971F /* QBAlbumCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBAlbumCell.h; path = QBImagePicker/QBAlbumCell.h; sourceTree = "<group>"; };
+		BA7F586B8A89452AC8E34499C31DA651 /* CGGeometry+RSKImageCropper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CGGeometry+RSKImageCropper.m"; path = "RSKImageCropper/CGGeometry+RSKImageCropper.m"; sourceTree = "<group>"; };
+		BDBFE16C6E5F5EF041D988F5BC9E1703 /* CGGeometry+RSKImageCropper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CGGeometry+RSKImageCropper.h"; path = "RSKImageCropper/CGGeometry+RSKImageCropper.h"; sourceTree = "<group>"; };
+		BE63115DB4C041834CA3883BFBC06047 /* UIApplication+RSKImageCropper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+RSKImageCropper.h"; path = "RSKImageCropper/UIApplication+RSKImageCropper.h"; sourceTree = "<group>"; };
+		C93C68A99DEA2D18690FE82A28F2D95A /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
+		CA44167DF833BACC6EF4424500D4A304 /* Pods-xc_app_rn-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-xc_app_rn-frameworks.sh"; sourceTree = "<group>"; };
+		CCD54A2521CCDA4FB386F8FA53A080A5 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = QBImagePicker/de.lproj; sourceTree = "<group>"; };
+		D0CB14387C7342405D114BCAD216EC3F /* Pods-xc_app_rn-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-xc_app_rn-dummy.m"; sourceTree = "<group>"; };
+		D330671A89F63BBDC0783223A8091DCA /* libPods-xc_app_rn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-xc_app_rn.a"; path = "libPods-xc_app_rn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4721F320A55D834EFDDDB3CD0BF451B /* VerifyCode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VerifyCode.framework; sourceTree = "<group>"; };
+		D68D39E0FE6D8A4584A043D78A9C9ABC /* QBAssetsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBAssetsViewController.h; path = QBImagePicker/QBAssetsViewController.h; sourceTree = "<group>"; };
+		DF7F76CC7840A37EB8ABA6A0577552FD /* libRSKImageCropper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRSKImageCropper.a; path = libRSKImageCropper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E7C0AE2345A8B986BE32021FAB0B3E /* ResourceBundle-QBImagePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-QBImagePicker-Info.plist"; sourceTree = "<group>"; };
+		E620ED95A626CD46CC275084287BE9D1 /* QBAssetCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBAssetCell.m; path = QBImagePicker/QBAssetCell.m; sourceTree = "<group>"; };
+		E7A5BF8CEA615345C5797975AA36C48C /* QBImagePickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBImagePickerController.h; path = QBImagePicker/QBImagePickerController.h; sourceTree = "<group>"; };
+		EAC36ADFEE5EFDFF2295BA53C567D9BC /* RSKImageCropViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSKImageCropViewController.m; path = RSKImageCropper/RSKImageCropViewController.m; sourceTree = "<group>"; };
+		EB0A7D148BD79B2C0F2AEC2EE1247A8B /* QBImagePickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBImagePickerController.m; path = QBImagePicker/QBImagePickerController.m; sourceTree = "<group>"; };
+		EC7A871281648E0B111362D38A783CCE /* QBCheckmarkView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBCheckmarkView.m; path = QBImagePicker/QBCheckmarkView.m; sourceTree = "<group>"; };
+		ECCC17E96B0E22B04DE15147CE7348E0 /* RSKImageCropper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSKImageCropper.xcconfig; sourceTree = "<group>"; };
+		F6FFFAA2568A44F9D3097B072DF26A3D /* RSKInternalUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSKInternalUtility.m; path = RSKImageCropper/RSKInternalUtility.m; sourceTree = "<group>"; };
+		F9B294CE50E4080421ECABE6AAB6F054 /* Pods-xc_app_rn-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-xc_app_rn-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67AFD747F4B0C52B3DD721E986AF57DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616FCCAA6C1FF5C061E15FB1E25A9D60 /* Foundation.framework in Frameworks */,
+				2F84FE4D5740DA50580742190510A091 /* QuartzCore.framework in Frameworks */,
+				7B163BF1720101AC8ADE8F162136CFCF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D9253EC09D910328FAF8DF64F3202F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E3AEC750317154A7E148371A7926CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52AE6014599C4B7C98EE9F0F2C5DCEC5 /* Foundation.framework in Frameworks */,
+				EC840CA4FAA8326BB5B2251E68B61237 /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CD60D1C118ACFE748BDBFA0D8F638F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE99A29CEC9E2D7619D228BDDA97B1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FC34A88BA4B4DBCD8D5173EE15034A /* Pods-xc_app_rn */ = {
+			isa = PBXGroup;
+			children = (
+				0A9E7A1DABEA1F238DAF018F3A6A4AFA /* Pods-xc_app_rn-acknowledgements.markdown */,
+				4BC0BA619E35496BB5BE2F7279D08F55 /* Pods-xc_app_rn-acknowledgements.plist */,
+				D0CB14387C7342405D114BCAD216EC3F /* Pods-xc_app_rn-dummy.m */,
+				CA44167DF833BACC6EF4424500D4A304 /* Pods-xc_app_rn-frameworks.sh */,
+				F9B294CE50E4080421ECABE6AAB6F054 /* Pods-xc_app_rn-resources.sh */,
+				AEFF84D4DD4D33D52497F68E4E608C8C /* Pods-xc_app_rn.debug.xcconfig */,
+				1BD77EBD768BE209960F6149C9F16537 /* Pods-xc_app_rn.release.xcconfig */,
+			);
+			name = "Pods-xc_app_rn";
+			path = "Target Support Files/Pods-xc_app_rn";
+			sourceTree = "<group>";
+		};
+		0A4B444BA4BD2061BEA48B9022849816 /* VerifyCode */ = {
+			isa = PBXGroup;
+			children = (
+				4A69E5C5E1BB49BA4AD14C78BE28092B /* Frameworks */,
+			);
+			name = VerifyCode;
+			path = VerifyCode;
+			sourceTree = "<group>";
+		};
+		0AA2D1E6AB582C308CCAABEF87D90352 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CCD54A2521CCDA4FB386F8FA53A080A5 /* de.lproj */,
+				65F5FC7E113B2B046A9023BDECBADC87 /* en.lproj */,
+				B5B85469CE739856356D11F9660F087C /* es.lproj */,
+				57491EE1A43D757DB780A545799E46F2 /* ja.lproj */,
+				1206692AC1BEE5AFBB02281FEF8E960C /* QBImagePicker.storyboard */,
+				020771216C77ADA288F0CD7DA165F84E /* zh-Hans.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0EE08BB5C35D7427EE324547BBE7CF79 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C14DD8A3E247C9DFE978D23CD79F6 /* RSKImageCropperStrings.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ED470E05F420821D3AF6DB77B83872B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E86E799C76C485F8B3781A9BC502045 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69B2BDBA315D65DDD334A18F5F368C71 /* QBImagePickerController */,
+				546900EEBAE1AA1602166C25BA65B427 /* RSKImageCropper */,
+				0A4B444BA4BD2061BEA48B9022849816 /* VerifyCode */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2B566358F67FBBF12C346E340D5813B7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				139595B118BC7E6A5878FE7F79152E98 /* QBImagePickerController.xcconfig */,
+				AF6FA7B9610A20C4CA32AC4709A01FDD /* QBImagePickerController-dummy.m */,
+				356BF1101224CD78D0E7832793E72F85 /* QBImagePickerController-prefix.pch */,
+				E5E7C0AE2345A8B986BE32021FAB0B3E /* ResourceBundle-QBImagePicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QBImagePickerController";
+			sourceTree = "<group>";
+		};
+		4A69E5C5E1BB49BA4AD14C78BE28092B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4721F320A55D834EFDDDB3CD0BF451B /* VerifyCode.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		546900EEBAE1AA1602166C25BA65B427 /* RSKImageCropper */ = {
+			isa = PBXGroup;
+			children = (
+				BDBFE16C6E5F5EF041D988F5BC9E1703 /* CGGeometry+RSKImageCropper.h */,
+				BA7F586B8A89452AC8E34499C31DA651 /* CGGeometry+RSKImageCropper.m */,
+				111A9FD24E2499EBC96D3EA6845DFB1C /* RSKImageCropper.h */,
+				8D8EE5E8E2D7954D616DBE224C1AFCA8 /* RSKImageCropViewController.h */,
+				EAC36ADFEE5EFDFF2295BA53C567D9BC /* RSKImageCropViewController.m */,
+				6D40FB26CFC6B3834B12038003545C3B /* RSKImageCropViewController+Protected.h */,
+				4BED797054FD013B18665ED3955913AC /* RSKImageScrollView.h */,
+				38247C857F43104BD924F610F0E9711F /* RSKImageScrollView.m */,
+				B5B99E26FFDBE1D68316A9172A6BF38C /* RSKInternalUtility.h */,
+				F6FFFAA2568A44F9D3097B072DF26A3D /* RSKInternalUtility.m */,
+				388B61DDAFCAFC77ABDA3DC1C4EA87C2 /* RSKTouchView.h */,
+				146BE6E85422BEC384246B98538CA54E /* RSKTouchView.m */,
+				BE63115DB4C041834CA3883BFBC06047 /* UIApplication+RSKImageCropper.h */,
+				35E05FB8DC03953A45AFBF210610F813 /* UIApplication+RSKImageCropper.m */,
+				B46B5BCF99046F267446CF790F0A2BAD /* UIImage+RSKImageCropper.h */,
+				264CD27998361E9EB362A0F6EDA3CB0B /* UIImage+RSKImageCropper.m */,
+				0EE08BB5C35D7427EE324547BBE7CF79 /* Resources */,
+				FA7C2FE8558EDACFCD29400F577F5293 /* Support Files */,
+			);
+			name = RSKImageCropper;
+			path = RSKImageCropper;
+			sourceTree = "<group>";
+		};
+		69B2BDBA315D65DDD334A18F5F368C71 /* QBImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				B85A525AA40F49D8B9F0E6462DA7971F /* QBAlbumCell.h */,
+				B2510D26C8AC12C0644D042A2DCC6B21 /* QBAlbumCell.m */,
+				69C979E795E45F61938DA618C8C227E4 /* QBAlbumsViewController.h */,
+				1CF7C5842D7899C12602EC76609C6AA1 /* QBAlbumsViewController.m */,
+				A7ED0E18C5E9E732E19F6DB1E668B037 /* QBAssetCell.h */,
+				E620ED95A626CD46CC275084287BE9D1 /* QBAssetCell.m */,
+				D68D39E0FE6D8A4584A043D78A9C9ABC /* QBAssetsViewController.h */,
+				8E4DEA89FAC6843E36173A51D58547C6 /* QBAssetsViewController.m */,
+				264538DC8380C3B4E677C182E6252EC6 /* QBCheckmarkView.h */,
+				EC7A871281648E0B111362D38A783CCE /* QBCheckmarkView.m */,
+				E7A5BF8CEA615345C5797975AA36C48C /* QBImagePickerController.h */,
+				EB0A7D148BD79B2C0F2AEC2EE1247A8B /* QBImagePickerController.m */,
+				6AF12D9FA0ADE4BC58DC41B83B85276B /* QBSlomoIconView.h */,
+				4DE5EF1D2CFC03596409F8E46C550FC2 /* QBSlomoIconView.m */,
+				750060EAB0D46FCAD359BC6C53D6BB3F /* QBVideoIconView.h */,
+				963E47EE4A845E5FDB851EB77A2D554F /* QBVideoIconView.m */,
+				8F38181090C427EFCAECB0BD523AFF14 /* QBVideoIndicatorView.h */,
+				389128D116DCA0D35A8F868C3430BEC5 /* QBVideoIndicatorView.m */,
+				0AA2D1E6AB582C308CCAABEF87D90352 /* Resources */,
+				2B566358F67FBBF12C346E340D5813B7 /* Support Files */,
+			);
+			name = QBImagePickerController;
+			path = QBImagePickerController;
+			sourceTree = "<group>";
+		};
+		6ED470E05F420821D3AF6DB77B83872B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1E4720C5D8DF212354044601A7053B44 /* Foundation.framework */,
+				C93C68A99DEA2D18690FE82A28F2D95A /* Photos.framework */,
+				0F4E6849811E3ECA7727EF2DB75F2104 /* QuartzCore.framework */,
+				782D113F6911206FC11F0532805F7681 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		724A30EA22453F04B551FD98EF1BC37F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D330671A89F63BBDC0783223A8091DCA /* libPods-xc_app_rn.a */,
+				9AECD76A8A6878DAB436857AD3C98687 /* libQBImagePickerController.a */,
+				DF7F76CC7840A37EB8ABA6A0577552FD /* libRSKImageCropper.a */,
+				3900EAF156DE2F106F4E2BF26A55C333 /* QBImagePicker.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				1E86E799C76C485F8B3781A9BC502045 /* Pods */,
+				724A30EA22453F04B551FD98EF1BC37F /* Products */,
+				C8350E954460638D7E5A7A3F715978C0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		C8350E954460638D7E5A7A3F715978C0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08FC34A88BA4B4DBCD8D5173EE15034A /* Pods-xc_app_rn */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FA7C2FE8558EDACFCD29400F577F5293 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECCC17E96B0E22B04DE15147CE7348E0 /* RSKImageCropper.xcconfig */,
+				4CEF2CD41246C6187A42CE689D2E5865 /* RSKImageCropper-dummy.m */,
+				A7B40768DAAEF3914375EA71A5BD36C7 /* RSKImageCropper-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RSKImageCropper";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		150A355D13BEDCC48C96FC675693CC8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80A9B30513F1D97D121145933AFCC78 /* QBAlbumCell.h in Headers */,
+				1AFFB2EC853B1404A5EEA86F6C83D278 /* QBAlbumsViewController.h in Headers */,
+				3CFCF08DAFBB287E08B19796CA98EF60 /* QBAssetCell.h in Headers */,
+				52E4654265A86533EE7827E672FC9931 /* QBAssetsViewController.h in Headers */,
+				5EC4168C9B9666C9FD1BA38B29818655 /* QBCheckmarkView.h in Headers */,
+				818616DD16831849C05A2687DC29747D /* QBImagePickerController.h in Headers */,
+				9A4146B2FDE7D033EC5AD80411DE7172 /* QBSlomoIconView.h in Headers */,
+				55A762813DAFC2C4A36E25D9052B5D03 /* QBVideoIconView.h in Headers */,
+				AE10992F09D83FEC417289D32DB871C7 /* QBVideoIndicatorView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34342BD93AD420B9696228471C1FE2DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82579A981ABDFA87096DF569E3B5EE55 /* CGGeometry+RSKImageCropper.h in Headers */,
+				66A83C54B684154CAA2DE78EF3C3C8B6 /* RSKImageCropper.h in Headers */,
+				0D966CFBFC82E4F88C9CB7DA44D95C34 /* RSKImageCropViewController+Protected.h in Headers */,
+				349811B643E1B9EB3A3DD353F521000A /* RSKImageCropViewController.h in Headers */,
+				923937055CC44D13194844208D026E70 /* RSKImageScrollView.h in Headers */,
+				862E334630610A5D158BEEF14EF2CDB1 /* RSKInternalUtility.h in Headers */,
+				FB5E05C13F38B640825FC5FEDF71DA80 /* RSKTouchView.h in Headers */,
+				C23B836A2DA9731C58E343121E95128A /* UIApplication+RSKImageCropper.h in Headers */,
+				7EAEA14C0F016146E45F657890847598 /* UIImage+RSKImageCropper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2B702618CB2484E73A40D7A64C63740E /* QBImagePickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B15FFD1B8D44F7EDB3C5065F16A523 /* Build configuration list for PBXNativeTarget "QBImagePickerController" */;
+			buildPhases = (
+				591DF43E28D4FA1E706251130088D5C3 /* Sources */,
+				83E3AEC750317154A7E148371A7926CD /* Frameworks */,
+				150A355D13BEDCC48C96FC675693CC8A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62494A6BF1A0230BBEBE887B2F8EE53C /* PBXTargetDependency */,
+			);
+			name = QBImagePickerController;
+			productName = QBImagePickerController;
+			productReference = 9AECD76A8A6878DAB436857AD3C98687 /* libQBImagePickerController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3A726382AC03E077127FB54A866632B2 /* RSKImageCropper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F8FAE5728B8922DA82CCBC48D04C9C4 /* Build configuration list for PBXNativeTarget "RSKImageCropper" */;
+			buildPhases = (
+				9C5733F2CA5F2F239B2102048C244807 /* Sources */,
+				67AFD747F4B0C52B3DD721E986AF57DD /* Frameworks */,
+				34342BD93AD420B9696228471C1FE2DF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSKImageCropper;
+			productName = RSKImageCropper;
+			productReference = DF7F76CC7840A37EB8ABA6A0577552FD /* libRSKImageCropper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BCC2360AB6034A9701A5D52FA6CD6D5E /* QBImagePickerController-QBImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35A8D2C0E83281FC7D251735A5AA876F /* Build configuration list for PBXNativeTarget "QBImagePickerController-QBImagePicker" */;
+			buildPhases = (
+				7496FA08400523FF2529AEB46A265E21 /* Sources */,
+				75D9253EC09D910328FAF8DF64F3202F /* Frameworks */,
+				1CFBEAD69F68EF96F3EC494ECD8ADEDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QBImagePickerController-QBImagePicker";
+			productName = "QBImagePickerController-QBImagePicker";
+			productReference = 3900EAF156DE2F106F4E2BF26A55C333 /* QBImagePicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FC8C56C6BB18CBF5143D397A14184E56 /* Pods-xc_app_rn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DDC8234E50A5A69F2E98A9D6E68E9F8 /* Build configuration list for PBXNativeTarget "Pods-xc_app_rn" */;
+			buildPhases = (
+				9D4A754BDCAD40A1FADD2FF755A76DBC /* Sources */,
+				9CD60D1C118ACFE748BDBFA0D8F638F8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9DBFD3E2789EEBF38DFC03D4C2C511B /* PBXTargetDependency */,
+				73F5ADA4A8000F673E2E267550D311C0 /* PBXTargetDependency */,
+			);
+			name = "Pods-xc_app_rn";
+			productName = "Pods-xc_app_rn";
+			productReference = D330671A89F63BBDC0783223A8091DCA /* libPods-xc_app_rn.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 724A30EA22453F04B551FD98EF1BC37F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC8C56C6BB18CBF5143D397A14184E56 /* Pods-xc_app_rn */,
+				2B702618CB2484E73A40D7A64C63740E /* QBImagePickerController */,
+				BCC2360AB6034A9701A5D52FA6CD6D5E /* QBImagePickerController-QBImagePicker */,
+				3A726382AC03E077127FB54A866632B2 /* RSKImageCropper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CFBEAD69F68EF96F3EC494ECD8ADEDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61028252799EE86E92DE3FC7E16E39A /* de.lproj in Resources */,
+				97F4AC96B872414C1DB3228BACF519F6 /* en.lproj in Resources */,
+				0350464E51819A72494908F5D4723382 /* es.lproj in Resources */,
+				0AC3080B7C843B63610A10F1CA7A5342 /* ja.lproj in Resources */,
+				90141EAE580632364F2FE68F58DA6814 /* QBImagePicker.storyboard in Resources */,
+				4359CA356C8325F4E09096265F76988B /* zh-Hans.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		591DF43E28D4FA1E706251130088D5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9D33C317DD29E52EDCE8A6F0D3EF21 /* QBAlbumCell.m in Sources */,
+				2C18641EA16DCA3A7B1F13A118D99055 /* QBAlbumsViewController.m in Sources */,
+				2D00718F587706D3EA882ADA0D84FF37 /* QBAssetCell.m in Sources */,
+				8389E43A69ECED799C723D1AA613C709 /* QBAssetsViewController.m in Sources */,
+				5AF5E8328DBB0D912ACDA85F8F6B671D /* QBCheckmarkView.m in Sources */,
+				B495B50A38F549D892A77877355B3CE3 /* QBImagePickerController-dummy.m in Sources */,
+				429B89FF96E287EA8DF3A9BE2F304A64 /* QBImagePickerController.m in Sources */,
+				D107D7B5C31100DB96675085B68F9511 /* QBSlomoIconView.m in Sources */,
+				F51DF85E3394B6B49BA6D9C1D456955B /* QBVideoIconView.m in Sources */,
+				DD22A88BF312C5AB8A7929CFFE307DDB /* QBVideoIndicatorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7496FA08400523FF2529AEB46A265E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5733F2CA5F2F239B2102048C244807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D22FC7848AA605B1788DE3DA72F03C6 /* CGGeometry+RSKImageCropper.m in Sources */,
+				EB6251E178B3B550C9472D2B09728170 /* RSKImageCropper-dummy.m in Sources */,
+				6750EF5865E365F37473D86C878938D7 /* RSKImageCropViewController.m in Sources */,
+				372C6B5A451F62CF20A95D2750013958 /* RSKImageScrollView.m in Sources */,
+				03D7BAE3E80982D33D168E7784619B95 /* RSKInternalUtility.m in Sources */,
+				1B267DB1E4537784F085C1527D8E6A60 /* RSKTouchView.m in Sources */,
+				75A62FF11FE669147A9624F5B91C6C51 /* UIApplication+RSKImageCropper.m in Sources */,
+				6EE1C695E97661EB2DC62D33D2EA89C3 /* UIImage+RSKImageCropper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D4A754BDCAD40A1FADD2FF755A76DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB77E6C643F471A4D3E985A3E149462A /* Pods-xc_app_rn-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62494A6BF1A0230BBEBE887B2F8EE53C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "QBImagePickerController-QBImagePicker";
+			target = BCC2360AB6034A9701A5D52FA6CD6D5E /* QBImagePickerController-QBImagePicker */;
+			targetProxy = 8D675E92E35602C74B8C6F38DCCB8724 /* PBXContainerItemProxy */;
+		};
+		73F5ADA4A8000F673E2E267550D311C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSKImageCropper;
+			target = 3A726382AC03E077127FB54A866632B2 /* RSKImageCropper */;
+			targetProxy = 881F9A7D4DDEB8D6D8EBF6AD8FCD6B52 /* PBXContainerItemProxy */;
+		};
+		F9DBFD3E2789EEBF38DFC03D4C2C511B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QBImagePickerController;
+			target = 2B702618CB2484E73A40D7A64C63740E /* QBImagePickerController */;
+			targetProxy = A7891B0D135CF15A25572EC49A20267E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14476A1CC8123A11466ED6A98B2D4964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139595B118BC7E6A5878FE7F79152E98 /* QBImagePickerController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QBImagePickerController/QBImagePickerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+		1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59786B3644CAEFBFC063647FDB2F6975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139595B118BC7E6A5878FE7F79152E98 /* QBImagePickerController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QBImagePickerController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/QBImagePickerController/ResourceBundle-QBImagePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = QBImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		744E0321E5C45805206CC968950EE5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139595B118BC7E6A5878FE7F79152E98 /* QBImagePickerController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QBImagePickerController/QBImagePickerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		77A4DA230AEC21F7F5743D1753260E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECCC17E96B0E22B04DE15147CE7348E0 /* RSKImageCropper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RSKImageCropper/RSKImageCropper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		7847A823DEBED215D1122CC497AA429D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECCC17E96B0E22B04DE15147CE7348E0 /* RSKImageCropper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RSKImageCropper/RSKImageCropper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+		8D23DAB41295410184494091C761CFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139595B118BC7E6A5878FE7F79152E98 /* QBImagePickerController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QBImagePickerController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/QBImagePickerController/ResourceBundle-QBImagePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = QBImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A6C07C3A012D6A77AA01CC5E9B7ECC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEFF84D4DD4D33D52497F68E4E608C8C /* Pods-xc_app_rn.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C55B9879093B107578224124B18357C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD77EBD768BE209960F6149C9F16537 /* Pods-xc_app_rn.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F8FAE5728B8922DA82CCBC48D04C9C4 /* Build configuration list for PBXNativeTarget "RSKImageCropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A4DA230AEC21F7F5743D1753260E09 /* Debug */,
+				7847A823DEBED215D1122CC497AA429D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35A8D2C0E83281FC7D251735A5AA876F /* Build configuration list for PBXNativeTarget "QBImagePickerController-QBImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D23DAB41295410184494091C761CFA5 /* Debug */,
+				59786B3644CAEFBFC063647FDB2F6975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B15FFD1B8D44F7EDB3C5065F16A523 /* Build configuration list for PBXNativeTarget "QBImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				744E0321E5C45805206CC968950EE5E3 /* Debug */,
+				14476A1CC8123A11466ED6A98B2D4964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DDC8234E50A5A69F2E98A9D6E68E9F8 /* Build configuration list for PBXNativeTarget "Pods-xc_app_rn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C07C3A012D6A77AA01CC5E9B7ECC82 /* Debug */,
+				C55B9879093B107578224124B18357C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

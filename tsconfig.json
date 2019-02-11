@@ -1,0 +1,45 @@
+{
+    "compilerOptions": {
+      "target": "es2017",
+      "jsx": "react-native",
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "moduleResolution": "node",
+      "experimentalDecorators": true,
+      "noImplicitAny": false,
+      "allowSyntheticDefaultImports": true,
+      "outDir": "dist",
+      "noUnusedParameters": true,
+      "noUnusedLocals": true,
+      "strictNullChecks": true,
+      "noImplicitThis": true,
+      "sourceMap": true,
+      "allowJs": true,
+      "baseUrl": ".",
+      "types": [
+        "interface"
+      ],
+      "typeRoots":[
+        "src",
+        "node_modules/@types"
+      ]
+    },
+    "filesGlob": [
+      "src/**/*.ts",
+      "src/**/*.tsx"
+    ],
+    "exclude": [
+      "node_modules",
+      "node_modules/**/*.ts",
+      "node_modules/**/*.tsx",
+      "dist",
+      "tests",
+      "jest",
+      "lib",
+      "__tests__",
+      "**/*.test.ts",
+      "index.android.js",
+      "index.ios.js"
+    ],
+    "compileOnSave": false
+  }

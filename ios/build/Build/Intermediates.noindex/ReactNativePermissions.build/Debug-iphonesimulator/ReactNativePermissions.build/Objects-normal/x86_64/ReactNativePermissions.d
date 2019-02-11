@@ -1,0 +1,34 @@
+dependencies: \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native-permissions/ios/ReactNativePermissions.m \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native-permissions/ios/ReactNativePermissions.h \
+  /Users/sunruinian/workspace/xc_app_rn/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/sunruinian/workspace/xc_app_rn/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/sunruinian/workspace/xc_app_rn/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/sunruinian/workspace/xc_app_rn/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/sunruinian/workspace/xc_app_rn/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/sunruinian/workspace/xc_app_rn/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/sunruinian/workspace/xc_app_rn/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/sunruinian/workspace/xc_app_rn/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/sunruinian/workspace/xc_app_rn/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/sunruinian/workspace/xc_app_rn/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/sunruinian/workspace/xc_app_rn/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/sunruinian/workspace/xc_app_rn/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/sunruinian/workspace/xc_app_rn/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/sunruinian/workspace/xc_app_rn/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/sunruinian/workspace/xc_app_rn/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/sunruinian/workspace/xc_app_rn/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/sunruinian/workspace/xc_app_rn/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/sunruinian/workspace/xc_app_rn/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/sunruinian/workspace/xc_app_rn/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native-permissions/ios/Permissions/RNPLocation.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native-permissions/ios/RCTConvert+RNPStatus.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native-permissions/ios/Permissions/RNPBluetooth.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native-permissions/ios/Permissions/RNPNotification.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native-permissions/ios/Permissions/RNPAudioVideo.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native-permissions/ios/Permissions/RNPEvent.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native-permissions/ios/Permissions/RNPPhoto.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native-permissions/ios/Permissions/RNPContacts.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native-permissions/ios/Permissions/RNPBackgroundRefresh.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native-permissions/ios/Permissions/RNPSpeechRecognition.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native-permissions/ios/Permissions/RNPMediaLibrary.h \
+  /Users/sunruinian/workspace/xc_app_rn/node_modules/react-native-permissions/ios/Permissions/RNPMotion.h

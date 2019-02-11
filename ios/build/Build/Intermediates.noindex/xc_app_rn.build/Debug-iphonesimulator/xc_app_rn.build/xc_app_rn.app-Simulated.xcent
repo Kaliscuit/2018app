@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>V26EY9ZA87.com.dalingjia.shop</string>
+	<key>aps-environment</key>
+	<string>development</string>
+	<key>com.apple.developer.associated-domains</key>
+	<array>
+		<string>applinks:dalingjia.com</string>
+	</array>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>V26EY9ZA87.com.yoka.663</string>
+		<string>V26EY9ZA87.com.daling.daling</string>
+		<string>V26EY9ZA87.com.daling.test</string>
+		<string>V26EY9ZA87.*</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,30 @@
+//
+// Prefix header for all source files of the 'GiftShop' target in the 'GiftShop' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+//#import "Contants.h"
+#import "UIView+LCAdditional.h"
+#import "NSString+LCAdditional.h"
+#import "NSArray+LCAdditional.h"
+#import "NSData+LCAdditional.h"
+#import "NSDate+LCAdditional.h"
+#import "NSObject+LCAdditional.h"
+#import "UIColor+LCAdditional.h"
+#import "NSDictionary+LCAdditional.h"
+#import "NSDictionary+Category.h"
+//#import "UIButton+WebCache.h"
+#import "NSMutableArray+GSAdditional.h"
+#import "GSDefine.h"
+#import "AppDelegate.h"
+
+#endif

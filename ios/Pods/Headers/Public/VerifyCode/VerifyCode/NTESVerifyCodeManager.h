@@ -1,0 +1,1 @@
+../../../../VerifyCode/VerifyCode.framework/Headers/NTESVerifyCodeManager.h
